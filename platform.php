@@ -48,7 +48,7 @@
           ul.appendChild(li);
         }
       });
-    }, {scope: 'pages_show_list'});
+    }, {scope: ['manage_pages', 'leads_retrieval']});
   }
 </script>
 <button onclick="myFacebookLogin()">Login with Facebook</button>
