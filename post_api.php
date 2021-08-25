@@ -5,4 +5,5 @@ if (isset($_POST['leaddata']) && $_POST['leaddata']!="") {
 	echo $leaddata;
 	error_log(print_r($leaddata, true));
 }
+error_log(print_r("No data", true));
     ?>
